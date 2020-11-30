@@ -113,7 +113,7 @@ while running:
         main.game_board(board)
         main.enter_position(board , Already)
         main.place_hold(board , P2.pawn)
-        if P1.check(board):
+        if P2.check(board):
             main.game_board(board)
             print(f"{n2} Wins!!")
             break
